@@ -21,14 +21,14 @@ public class POOAUTO {
         Auto fitito,taxi;
         
         fitito = new Auto();
-        taxi = new Auto();
+        taxi = new Auto("Fiat","Verde");
         
-        System.out.println(fitito.encendido);
-        fitito.Encender();
-        System.out.println(fitito.encendido);
-        fitito.Apagar();
-        System.out.println(fitito.encendido);
-        taxi.Encender();
+        taxi.setColor("Verde");
+        
+     
+       
+        
+        
         
 
         
